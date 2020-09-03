@@ -43,7 +43,7 @@ class MY_controller extends CI_Controller
              $this->load->library('email');
                 // configuration for protocol, host, port, user, and pass user email
 
-             $config = array('protocol' => 'smtp', 'smtp_host' => 'ssl://smtp.googlemail.com', 'smtp_port' => '465', 'smtp_user' => 'ihsanferyy@gmail.com', 'smtp_pass' => 'redirect@1997',  'charset' => 'iso-8859-1', 'mailtype'  => 'html'
+             $config = array('protocol' => 'smtp', 'smtp_host' => 'ssl://smtp.googlemail.com', 'smtp_port' => '465', 'smtp_user' => 'youremail@gmail.com', 'smtp_pass' => 'yourpassword',  'charset' => 'iso-8859-1', 'mailtype'  => 'html'
          );
              $vars['nama_pemesan'] = $nama ;
              $vars['kode_transaksi'] = $kode;
@@ -81,7 +81,7 @@ class MY_controller extends CI_Controller
              $this->load->library('email');
                 // configuration for protocol, host, port, user, and pass user email
 
-             $config = array('protocol' => 'smtp', 'smtp_host' => 'ssl://smtp.googlemail.com', 'smtp_port' => '465', 'smtp_user' => 'ihsanferyy@gmail.com', 'smtp_pass' => 'redirect@1997',  'charset' => 'iso-8859-1', 'mailtype'  => 'html'
+             $config = array('protocol' => 'smtp', 'smtp_host' => 'ssl://smtp.googlemail.com', 'smtp_port' => '465', 'smtp_user' => 'youremail@gmail.com', 'smtp_pass' => 'yourpassword',  'charset' => 'iso-8859-1', 'mailtype'  => 'html'
          );
              $vars['nama_pemesan'] = $nama ;
              $vars['kode_transaksi'] = $kode;
@@ -123,7 +123,7 @@ class MY_controller extends CI_Controller
             $this->load->library('email');
                 // configuration for protocol, host, port, user, and pass user email
 
-            $config = array('protocol' => 'smtp', 'smtp_host' => 'ssl://smtp.googlemail.com', 'smtp_port' => '465', 'smtp_user' => 'ihsanferyy@gmail.com', 'smtp_pass' => 'redirect@1997',  'charset' => 'iso-8859-1', 'mailtype'  => 'html'
+            $config = array('protocol' => 'smtp', 'smtp_host' => 'ssl://smtp.googlemail.com', 'smtp_port' => '465', 'smtp_user' => 'youremail@gmail.com', 'smtp_pass' => 'yourpassword',  'charset' => 'iso-8859-1', 'mailtype'  => 'html'
         );
             $vars['nama_pemesan'] = $nama ;
             $vars['nama_mobil'] = $nama_mobil;
